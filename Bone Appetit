@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+
+    int n,m,x,y;
+    scanf("%d%d",&n,&m);
+    scanf("%d%d",&x,&y);
+    int c=n*x;
+    int d=m*y;
+    printf("%d",c+d);
+}
+
