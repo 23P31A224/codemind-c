@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+	
+    int m,n;
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        scanf("%d%d",&m,&n);
+    if(m<n){
+        printf("B\n");
+    }
+    else{
+        printf("A\n");
+    }
+    }
+}
+
