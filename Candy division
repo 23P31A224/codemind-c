@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int n;
+        scanf("%d",&n);
+        int res=n%3;
+        if(res==0){
+            printf("YES\n");
+        }
+        else{
+            printf("NO\n");
+        }
+    }
+}
+
