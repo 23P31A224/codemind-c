@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+	
+    int t,a;
+    scanf("%d",&t);
+    for(int i=0;i<t;i++){
+        scanf("%d",&a);
+        if(a>24){
+            printf("YES\n");
+        }
+        else{
+            printf("NO\n");
+        }
+    }
+}
+
