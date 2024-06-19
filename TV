@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+	
+    int x;
+    scanf("%d",&x);
+    if(x%2!=0){
+        int c=(x/2)+1;
+        printf("%d",c);
+    }
+    else{
+        printf("%d",x/2);
+    }
+    
+}
