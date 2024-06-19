@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int a;
+        scanf("%d",&a);
+        if(3>a){
+            printf("LIGHT\n");
+        }
+        else if(7<=a){
+            printf("HEAVY\n"); 
+        }
+        else{
+            printf("MODERATE\n");
+        }
+    }
+}
+
