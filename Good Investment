@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void) {
+
+	int a,b,c;
+	scanf("%d",&a);
+	while(a--)
+	{
+	    scanf("%d%d",&b,&c);
+	    if(b>=2*c)
+	    printf("yes\n");
+	    else
+	    printf("no\n");
+	}
+	return 0;
+}
