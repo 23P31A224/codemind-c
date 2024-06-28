@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	while(t--){
+	    int a;
+	    scanf("%d",&a);
+	    if(a<=3){
+	        printf("BRONZE\n");
+	    }
+	    else if(6<a){
+	        printf("GOLD\n");
+	    }
+	    else{
+	        printf("SILVER\n");
+	    }
+	}
+
+}
+
