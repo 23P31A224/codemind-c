@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void){
+	int t;
+	float x,n;
+	scanf("%d",&t);
+	while(t>0){
+	    t--;
+	    scanf("%f %f",&n,&x);
+	    if(x>=n/2){
+	        printf("yes\n");
+	    }
+	    else{
+	        printf("no\n");
+	    }
+	}
+return 0;
+}
