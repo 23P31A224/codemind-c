@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+	int t;
+	scanf("%d",&t);
+	while(t--){
+	    int a,b;
+	    scanf("%d %d",&a,&b);
+	    
+	   int res=a*2;
+	   int ser=b*4;
+	   int result=res+ser;
+	   printf("%d\n",result);
+	}
+
+}
+
