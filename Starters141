@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(void) {
+	
+int x,y;
+scanf("%d",&x);
+if(x==1)
+{
+    int res;
+    res=4*x;
+    printf("%d",res);
+}
+else
+{
+ int res1;
+ int res2;
+ res2=x-1;
+ res1=4+(3*res2);
+ printf("%d\n",res1);
+}
+}
