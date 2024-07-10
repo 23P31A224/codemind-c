@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	int n;
+	scanf("%d",&n);
+	if(5*n<=60){
+	    printf("YES\n");
+	}
+	else{
+	    printf("NO\n");
+	}
+
+}
+
