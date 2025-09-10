@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int T;
+    scanf("%d", &T);
+    while (T--) {
+        int N;
+        scanf("%d", &N);
+
+        int fullCabs = N / 4;
+        int rem = N % 4;
+        int cost = 0;
+
+        if (rem == 0) {
+            cost = fullCabs * 400;
+        } else if (rem == 1) {
+            if (fullCabs >= 1) {
+                cost = (fullCabs - 1) * 400 + 500;
+            } else {
+                cost = 200; // Only 1 person case
+            }
+        } else if (rem == 2) {
+            cost = fullCabs * 400 + 200;
+        } else if (rem == 3) {
+            cost = fullCabs * 400 + 300;
+        }
+
+        printf("%d\n", cost);
+    }
+    return 0;
+}
